@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width:90%;
+            margin:5%;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+            border:5px solid black;
+        }
+        .para{
+            width:500px;
+            height:400px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            border:5px solid green;
+        }
+
+    </style>
+</head>
+<body>
+<!--Date() is a predifined function ofjava script ,when you call these function it will show the current date .-->
+
+    <!--calling date function using another function-->
+    <h1>Date() is a predifined function ofjava script ,when you call these function it will show the current date</h1>
+    <h3>syntax is:-  document.getElementById('id name').innerHTMl=Date();</h3>
+    <!--onclick events-->
+    <h1>onclick events</h1>
+    <div class="container">
+        <p class="para" id="demo"></p>
+        <button onclick="time()" >the time is</button>
+    </div>
+    <hr>
+
+<!--calling date function directly through Date() function-->
+    <div class="container">
+        <p class="para" id="demo2">Date() is a predifined function ofjava script ,when you call these function it will show the current date </p>
+        <button onclick="document.getElementById('demo2').innerHTML=Date()" >the time is</button>
+    </div>
+    <hr>
+    
+
+
+
+<!--java code-->
+
+<script>
+    function time(){
+        var show=document.getElementById('demo');
+        show.innerHTML=Date();//date is a predefined function of java script.
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+body{
+	margin:5px;
+}
+section{
+	width:100%;
+}
+  img{
+	display: inline-block;
+	width: 23%;
+	height:20%;
+	margin:5px;
+	padding: 6px;
+	transition-property:width,height,transform;
+	transition-duration: 2s;
+	transition-timing-function:linear; 
+	transition-delay: .5s;
+}
+img:hover{
+transform:scale(1.5,1.5);
+}
+img:focus{
+	box-shadow: 2px #FFD800FF;
+}

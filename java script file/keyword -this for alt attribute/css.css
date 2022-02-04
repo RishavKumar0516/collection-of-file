@@ -1,0 +1,15 @@
+img{
+
+width:20%;
+height:200px;
+}
+#showresult{
+	display: flex;
+	width:70%;
+	height:70px;
+	background: #7FC9FFFF;
+	text-align: center;
+	padding-top:80px;
+	padding-right:30px; 
+
+}

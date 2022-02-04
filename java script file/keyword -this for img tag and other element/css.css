@@ -1,0 +1,16 @@
+img{
+	display: inline-block;
+	width:24%;
+	height: 300px;
+	background: #007F7FFF;
+}
+div{
+	display: block;
+	text-align: center;
+	width:45%;
+	height: 250px;
+		padding-top: 90px;
+	background: #7FFFFFFF;
+	color:#FF0000FF;
+
+}

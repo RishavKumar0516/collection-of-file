@@ -1,0 +1,19 @@
+body{
+background:-webkit-linear-gradient(top,#00FFFFFF 0%,#00269CFF 50%);
+background-position: center;
+background-repeat: no-repeat;
+	width:100vw;
+	height:100vh;
+}
+#preview{
+	width:300px;
+	height:200px;
+	font-size: 35px;
+	background: #B6FF00FF;
+	margin: 10px;
+}
+.photo{
+	display:inline-block;
+	width:30vw; 
+	margin-right:10px;
+}

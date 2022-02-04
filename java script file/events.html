@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>events</title>
+	<script type="text/javascript">
+		function message(msg){
+			document.getElementById('output').innerHTML=msg+"event";
+		}
+	</script>
+</head>
+<body onload="message('LOAD')" 
+onresize="message('RESIZE')">
+<h1>javascript events-responding to events</h1>
+<p onclick="message('CLICK')">it is possible to call function based on events </p>
+<p onmouseover="message('MouseOver')">click on the paragraph above to trigger on <em>onclick</em>event.reload the page to see an onload event</p>
+<p id="output"></p>
+</body>
+</html>

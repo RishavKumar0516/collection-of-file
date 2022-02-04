@@ -1,0 +1,63 @@
+body{
+	background-image: url("sky.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:100vh;
+	background-position: center;                            
+}
+.menu{
+	width:90%;
+	height: 50%;
+	margin-left:90px;
+	position: fixed;
+	z-index:1; 
+
+}
+.menu ul{
+padding: 0px;
+
+}
+.menu ul li{
+float: left;
+width:270px;
+background: #FFD800FF;
+list-style: none;
+height:50px;
+line-height: 50px;
+text-align: center;
+font-size: 20px;
+}
+.menu ul li a{
+	text-decoration: none;
+}
+.menu ul li:hover{
+border: 5% #FF0000FF;
+background: #FFFFFFFF;
+
+}
+.menu > ul > li:first-child{
+	background: #7FFFFFFF;
+	opacity: .5;
+}
+.menu ul li ul{
+	display: none;
+	margin: 0;
+}
+.menu ul li:hover > ul{
+display: block;
+border-radius: 8px;
+}
+.menu ul li ul li{
+	position: relative;
+}
+.menu ul li ul li ul{
+	position: absolute;
+	left:270px;
+	top:50px;
+}
+section{
+	position:absolute;
+
+	top:150px; 
+	position: relative;
+}

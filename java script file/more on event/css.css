@@ -1,0 +1,23 @@
+body{
+	background: #B6FF00FF;
+	color:#808080FF;
+}
+img{
+	display: inline-block;
+	width:300px;
+	height:200px;
+}
+#word{
+	width:70%;
+	height:200px;
+	background: #7FFFFFFF;
+	color:#FF006EFF;
+	text-align: center;
+padding-top: 90px;
+
+}
+p{
+	display: flex;
+background: #DFD61FFF;
+color: #FF0000FF;
+}

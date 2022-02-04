@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>array</title>
+	<script type="text/javascript">
+		var fruits=["Banana","Orange","apple","Mango"];
+		function loadFruits(){
+			document.getElementById('fruits').innerHTML=fruits;
+		}
+		function myFunction(){
+			var fruit=prompt("What is your favourite fruit");
+			fruits[fruits.length]=fruit;
+			document.getElementById('fruits').innerHTML=fruits;
+		}
+	</script>
+</head>
+<body>
+<body onload="loadFruits()">
+	<button onclick="myFunction()">add your favourite</button>
+	<p id="fruits"></p>
+</body>
+</body>
+</html>

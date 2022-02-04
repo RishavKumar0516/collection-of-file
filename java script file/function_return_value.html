@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>function return value</title>
+	<script type="text/javascript">
+		function welcome_msg(msg){
+			alert(msg+"  "+"Everyone");/*adding space between the two words by using space bar inside semi-colon*/
+			var name=prompt("Enter your Name");
+			return name;
+		}
+	</script>
+</head>
+<body>
+<script type="text/javascript">
+	var firstname=welcome_msg("Hi..");
+	document.write(firstname);
+
+</script>
+</body>
+</html>

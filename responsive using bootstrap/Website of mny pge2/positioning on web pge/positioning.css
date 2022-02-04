@@ -1,0 +1,102 @@
+body{
+	background: -webkit-linear-gradient(top,#B6FF00FF 0%,#FF006EFF 100%);
+	background-repeat:no-repeat; 
+	background-size:100% 100%; 
+	margin-left:1%;
+	margin-right:1%; 
+
+
+}
+
+header{
+	display: inline-block;
+width:100%;
+background-image:url("up.jpg");
+background-position: center;
+text-align: center;
+font-size: 80%;
+	background-size:100% 100% ;
+		font-variant: small-caps;
+	color: #FFFFFFFF;
+	font-weight: 200px;
+	font-family: bold;
+
+
+}
+nav{
+	text-align: center;
+	font-variant: small-caps;
+	font-family: "times New Roa",serif,aerial;
+	padding-bottom:30px; 
+	clear: both;
+}	
+nav a{
+	display: inline-block;
+	width:15%;
+	height:35px;
+	line-height: 35px;
+	background:-webkit-linear-gradient(top,#00FFFFFF 0%,#ABB24CFF 100%);
+	color:#FF7F7FFF;
+	text-align: center;
+	margin: 20px;
+	padding: 5px 0 5px 0;
+	text-decoration: none;
+	font-style:bold;
+	font-size: 15px; 
+	border-radius: 8px;
+	clear: both;
+
+}
+a:hover{
+	color:#000000FF;
+	border-radius: 15px;
+	transform: rotate(360deg);
+}
+a:focus{
+	border:dashed 2px black;
+
+}
+.left{
+	display: inline-block;
+	width:30%;
+	float: left;
+}
+.left img{
+	display: block;
+	width:90%;
+	height:45%;
+	margin-bottom:1% ;
+	margin-top:1% ; 
+
+}
+.right{
+	display: inline-block;
+	width:30%;
+	float: right;
+}
+.right img{
+	display:block;
+	width:90%;
+	height:45%;
+	margin:10%;  /* you can also use float: right; in place of margin-left: 10%; */
+	margin-bottom:1% ;
+	margin-top:1% ; 
+}
+
+
+/* in any tag or element just like the section we always not use height and width attribute before position property ,if we use then position property will
+not work ,it will only work when height and width are after the position property .first with the use of position we can change the position of element and then we could 
+use the width and height to resize the element .we can also resize the element with position value such as right,left,top,bottom.*/
+
+.middie{
+    position: absolute;/*you can also use table cell in place of position absolute*/
+    top:45%;
+    left:30%;
+	display: block;
+	width:40%;
+	
+}
+
+
+
+

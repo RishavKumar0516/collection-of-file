@@ -1,0 +1,12 @@
+div[class^="visible"]{
+border: 2px solid black;
+}
+div[class$=lg]{
+	color: red;
+}
+div[class$=md]{
+	color: green;
+}
+div[class$=sm]{
+	color: yellow;
+}
